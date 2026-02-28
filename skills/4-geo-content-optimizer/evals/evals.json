@@ -1,0 +1,35 @@
+{
+  "skill_name": "geo-content-optimizer",
+  "evals": [
+    {
+      "id": 1,
+      "name": "optimize-article",
+      "prompt": "Optimize this blog post for AI citations. It currently starts with 'In today's digital landscape...' and has no FAQ section. Make it GEO-friendly.",
+      "expected_output": "Optimized article with direct answer in opening, entity mentions, structured headers, and FAQ section added."
+    },
+    {
+      "id": 2,
+      "name": "optimize-product-page",
+      "prompt": "Rewrite this product page so AI will cite it. Current content is vague: 'Our amazing tool helps teams work better.' Need specific, factual content.",
+      "expected_output": "Product page with one-sentence definition, specifications table, specific use cases, named customers, and comparison with alternatives."
+    },
+    {
+      "id": 3,
+      "name": "analyze-content",
+      "prompt": "Analyze this article for GEO citation readiness and tell me what needs improvement. [user provides article content]",
+      "expected_output": "Analysis report with scores across 8 dimensions, specific issues identified, and actionable suggestions for improvement."
+    },
+    {
+      "id": 4,
+      "name": "fix-hedging",
+      "prompt": "This content has too much hedging language like 'might be', 'could potentially', 'some experts believe'. Rewrite with authoritative voice.",
+      "expected_output": "Content with hedging removed, replaced with declarative statements and specific citations where appropriate."
+    },
+    {
+      "id": 5,
+      "name": "add-structure",
+      "prompt": "This 2000-word article has no headers and is just wall of text. Add proper structure for AI readability.",
+      "expected_output": "Restructured content with H2 headers every 300-500 words, H3 subsections, lists for related items, and improved scannability."
+    }
+  ]
+}
